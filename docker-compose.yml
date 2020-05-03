@@ -1,0 +1,15 @@
+version: '3'
+services:
+  db:
+    container_name: learning_wp_db
+    image: mysql:8
+    command: --default-authentication-plugin=mysql_native_password
+    env_file:
+      - .env
+    ports:
+    - 3306:3306
+    volumes:
+    - database:/var/lib/mysql
+
+volumes:
+  database:
