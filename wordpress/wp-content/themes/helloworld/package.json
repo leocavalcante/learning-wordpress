@@ -1,0 +1,31 @@
+{
+  "name": "@leocavalcante/hello-world",
+  "version": "1.0.0",
+  "description": "Hello, World!",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocavalcante/learning-wordpress.git"
+  },
+  "keywords": [
+    "learning",
+    "wordpress"
+  ],
+  "author": "leocavalcante <lc@leocavalcante.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leocavalcante/learning-wordpress/issues"
+  },
+  "homepage": "https://github.com/leocavalcante/learning-wordpress#readme",
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
