@@ -10,6 +10,6 @@
     }
   ],
   "require": {
-
+    "johnpbloch/wordpress": "^5.4"
   }
 }
