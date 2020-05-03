@@ -1,0 +1,15 @@
+{
+  "name": "leocavalcante/learning-wordpress",
+  "description": "I've been reluctant to use this tool, but finally I gave in.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "leocavalcante",
+      "email": "lc@leocavalcante.com"
+    }
+  ],
+  "require": {
+
+  }
+}
